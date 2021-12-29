@@ -1,0 +1,63 @@
+.find-icons {
+  margin: 25px 20px 0px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  border-bottom: 1px solid black;
+  padding-bottom: 25px;
+}
+
+.find-icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 20px;
+}
+
+.find-icon i {
+  margin-bottom: 10px;
+}
+
+.news {
+  padding: 15px;
+}
+
+.news-img img {
+  width: 130px;
+  height: 130px;
+  border-radius: 25px;
+  padding: 15px 5px 5px 0px;
+}
+
+.news-contents {
+  display: flex;
+}
+
+.news-info {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  justify-content: center;
+  position: relative;
+  right: 5px;
+}
+
+.news-bigtitle {
+  font-size: 25px;
+  color: white;
+}
+
+.news-title {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.news-subtitle {
+  margin-top: 10px;
+  width: 80%;
+  font-size: 16px;
+}
+
+#find-body {
+  height: 850px;
+}
