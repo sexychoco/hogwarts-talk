@@ -1,0 +1,36 @@
+.user-component {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid white;
+  margin: 10px;
+}
+
+.user-component__column:first-child {
+  display: flex;
+  align-items: center;
+}
+
+.user-img {
+  width: 70px;
+  height: 70px;
+  border-radius: 30px;
+  padding: 10px;
+}
+
+.user-name {
+  font-size: 20px;
+  color: white;
+}
+
+.user-music {
+  font-size: 13px;
+  border: 2px solid rgb(166, 231, 101);
+  border-radius: 30px;
+  padding: 5px;
+  color: rgba(238, 232, 232, 0.411);
+}
+.user-music i {
+  margin-left: 5px;
+  color: rgb(166, 231, 101);
+}

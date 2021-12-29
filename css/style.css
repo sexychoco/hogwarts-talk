@@ -1,0 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Oleo+Script&display=swap");
+
+@import "reset.css";
+@import "variables.css";
+
+@import "components/status-bar.css";
+@import "components/user-component.css";
+
+@import "screens/login.css";
+@import "screens/friends.css";

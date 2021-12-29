@@ -1,0 +1,53 @@
+.screen-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  align-items: center;
+}
+.screen-header__title {
+  font-size: 35px;
+  color: white;
+}
+
+.screen-header__icons i {
+  padding: 5px;
+  color: white;
+}
+
+.friends-display {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
+  padding: 15px;
+  background-color: rgba(238, 232, 232, 0.3);
+}
+
+.friends-display span {
+  margin: 0px 7px;
+}
+
+.channel {
+  display: flex;
+  justify-content: space-between;
+  margin: 0px 25px;
+  color: white;
+  font-size: 13px;
+}
+
+.channel-number,
+.channel-arrow {
+  color: white;
+  font-size: 15px;
+  position: relative;
+  right: 15px;
+}
+
+.channel-number {
+  margin-right: 3px;
+}
+
+.channel-title {
+  position: relative;
+  left: 7px;
+}
