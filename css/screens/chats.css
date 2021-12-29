@@ -1,0 +1,21 @@
+.user-component__time {
+  color: white;
+  margin-bottom: 7px;
+}
+
+.chat-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.user-component__column-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.user-component__column-text span {
+  margin: 5px;
+}

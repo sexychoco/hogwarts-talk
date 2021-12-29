@@ -12,6 +12,7 @@
 .screen-header__icons i {
   padding: 5px;
   color: white;
+  margin-left: 7px;
 }
 
 .friends-display {
