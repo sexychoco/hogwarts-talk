@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body id="chat-screen">
+    <div class="status-bar">
+        <div class="status-bar__column">
+            <span>No Service</span>
+            <i class="fas fa-wifi"></i>
+        </div>
+        <div class="status-bar__column">
+            <span>18:43</span>
+        </div>
+        <div class="status-bar__column">
+            <span>78%</span>
+            <i class="fas fa-battery-three-quarters fa-lg"></i>
+            <i class="fas fa-bolt"></i>
+        </div>
+    </div>
+    <header class="alt-header">
+        <div class="alt-header__column">
+            <a href="chats.html"><i class="fas fa-angle-left fa-3x"></i></a>
+        </div>
+        <div class="alt-header__column">
+            <h1 class="alt-header__title">Malfoy</h1>
+        </div>
+        <div class="alt-header__column">
+            <span class="alt-header__column-search"><i class="fas fa-search fa-2x"></i></span>
+            <span><i class="fas fa-bars fa-2x"></i></span>
+        </div>
+    </header>
+
+    <main class="main-screen main-chat">
+        <div class="chat__timestamp">
+            Friday, December24, 2020
+        </div>
+        <div class="message-row message-row--own">
+            <div class="message-row__content">
+                <div class="message-row__info">
+                    <span class="message-row__bubble">Hagrid!</span>
+                    <span class="message-row__time">09:30</span>
+                </div>
+            </div>
+        </div>
+        <div class="message-row message-row--own">
+            <div class="message-row__content">
+                <div class="message-row__info">
+                    <span class="message-row__bubble">I think Snape's trying to steal Philosopher's Stone!</span>
+                    <span class="message-row__time">09:32</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="message-row">
+            <img src="https://static.wikia.nocookie.net/harrypotter/images/f/fe/Rubeus_Hagrid.png/revision/latest?cb=20161123044204"/>
+            <div class="message-row__content">
+                <span class="message-row__author">Hagrid</span>
+                <div class="message-row__info">
+                    <span class="message-row__bubble">Snape? Blimey <br> you're not still on about him, are you?</span>
+                    <span class="message-row__time">11:00</span>
+                </div>
+            </div>
+        </div>
+        
+        <div class="message-row message-row--own">
+            <div class="message-row__content">
+                <div class="message-row__info">
+                    <span class="message-row__bubble">Hagrid, we know he's after the Stone. <br>
+                    We just don't know why.</span>
+                    <span class="message-row__time">11:25</span>
+                </div>
+            </div>
+        </div>
+        <div class="message-row">
+            <img src="https://static.wikia.nocookie.net/harrypotter/images/f/fe/Rubeus_Hagrid.png/revision/latest?cb=20161123044204"/>
+            <div class="message-row__content">
+                <span class="message-row__author">Hagrid</span>
+                <div class="message-row__info">
+                    <span class="message-row__bubble">Snape is one of the teachers protection the Stone. <br>
+                    He's not about to steal it. </span>
+                    <span class="message-row__time">11:30</span>
+                </div>
+            </div>
+        </div>
+        <div class="message-row message-row--own">
+            <div class="message-row__content">
+                <div class="message-row__info">
+                    <span class="message-row__bubble">What?</span>
+                    <span class="message-row__time">11:30</span>
+                </div>
+            </div>
+        </div>
+        <div class="message-row">
+            <img src="https://static.wikia.nocookie.net/harrypotter/images/f/fe/Rubeus_Hagrid.png/revision/latest?cb=20161123044204"/>
+            <div class="message-row__content">
+                <span class="message-row__author">Hagrid</span>
+                <div class="message-row__info">
+                    <span class="message-row__bubble">You heard. Right. come on , now , <br>
+                        i'm bit preoccupied today.</span>
+                    <span class="message-row__time">11:30</span>
+                </div>
+            </div>
+        </div>
+        
+    </main>
+
+    <form class="reply">
+        <div class="reply__column">
+            <i class="far fa-plus-square fa-lg"></i>
+        </div>
+        <div class="reply__column">
+            <input type="text" placeholder="Write a message..." />
+            <i class="far fa-smile fa-lg"></i>
+            <button>
+                <i class="fas fa-arrow-up"></i>
+            </button>
+        </div>
+        
+            
+    </form>
+    <script
+        src="https://kit.fontawesome.com/6478f529f2.js"
+        crossorigin="anonymous">
+    </script>
+</body>
+</html>
