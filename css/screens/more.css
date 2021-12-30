@@ -1,0 +1,56 @@
+.magic-purse {
+  background-color: pink;
+  margin: 10px;
+}
+
+.magic-purse-row {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+}
+
+.magic-purse-column {
+  display: flex;
+}
+
+.magic-purse-certificate {
+  margin-right: 10px;
+}
+
+.magic-purse-title {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.magic-purse-row:first-child .magic-purse-column:first-child {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.magic-purse-row:first-child .magic-purse-column:first-child i {
+  margin-left: 7px;
+  position: relative;
+  top: 2px;
+}
+
+.vl {
+  border-left: 2px solid black;
+  height: 16px;
+  margin: 0px 5px;
+}
+
+.magic-purse-row:nth-child(3) .magic-purse-column:nth-child(2) span {
+  margin-left: 5px;
+}
+
+.magic-purse-row:nth-child(2) {
+  display: flex;
+  justify-content: flex-start;
+  background-color: antiquewhite;
+  border-radius: 30px;
+}
+
+.magic-purse-ad {
+  margin-left: 5px;
+}

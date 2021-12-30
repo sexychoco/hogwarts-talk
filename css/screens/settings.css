@@ -1,0 +1,41 @@
+.settings-row {
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+}
+
+.settings__column {
+  display: flex;
+}
+
+.settings__column i {
+  font-size: 20px;
+  margin-right: 15px;
+  margin-left: 10px;
+}
+
+.settings__column span {
+  font-size: 18px;
+}
+
+.settings-row-diff {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+}
+
+.settings-down {
+  margin-top: 20px;
+}
+
+.settings-badge {
+  margin-left: 10px;
+}
+
+.settings__subtitle {
+  color: var(--grey);
+}
+
+.divider {
+  color: black;
+}
