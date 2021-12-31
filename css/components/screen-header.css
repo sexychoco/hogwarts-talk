@@ -1,0 +1,30 @@
+.screen-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  align-items: center;
+}
+.screen-header__title {
+  font-size: 35px;
+  color: var(--white);
+  font-family: "Oleo Script Swash Caps", cursive;
+}
+
+.screen-header__icons i {
+  padding: 5px;
+  color: var(--white);
+  margin-left: 7px;
+}
+
+@keyframes rotateCog {
+  from {
+    transform: none;
+  }
+  to {
+    transform: rotateZ(360deg);
+  }
+}
+
+.screen-header__icons .fa-cog:hover {
+  animation: rotateCog 2s linear infinite;
+}

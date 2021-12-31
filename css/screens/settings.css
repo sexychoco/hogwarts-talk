@@ -1,3 +1,8 @@
+#settings-body {
+  height: 110vh;
+  background-color: black;
+}
+
 .settings-row {
   display: flex;
   flex-direction: column;
@@ -16,16 +21,13 @@
 
 .settings__column span {
   font-size: 18px;
+  font-weight: 600;
 }
 
 .settings-row-diff {
   display: flex;
   justify-content: space-between;
   padding: 15px;
-}
-
-.settings-down {
-  margin-top: 20px;
 }
 
 .settings-badge {
@@ -36,6 +38,11 @@
   color: var(--grey);
 }
 
+.settings-up,
+.settings-down {
+  color: var(--white);
+}
+
 .divider {
-  color: black;
+  color: var(--white);
 }

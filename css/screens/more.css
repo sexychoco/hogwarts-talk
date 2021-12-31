@@ -1,5 +1,10 @@
+#more-body {
+  background-image: url("https://cdn.pixabay.com/photo/2017/05/27/15/47/harry-potter-2348767_960_720.jpg");
+}
+
 .magic-purse {
-  background-color: pink;
+  background-color: var(--yellow);
+  border-radius: 30px;
   margin: 10px;
   margin-top: 20px;
 }
@@ -59,9 +64,9 @@
 .more-icons {
   display: flex;
   flex-direction: column;
-  position: relative;
-  right: 10px;
-  margin-top: 30px;
+  margin: 30px 10px 10px;
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 30px;
 }
 
 .more-icons-row {
@@ -80,6 +85,10 @@
 .more-icon i,
 .more-icon span {
   font-size: 20px;
+}
+
+.more-icon:hover {
+  color: var(--red);
 }
 
 .more-icon i {

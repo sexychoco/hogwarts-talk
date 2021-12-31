@@ -3,11 +3,13 @@
   align-items: center;
   justify-content: center;
   padding: 10px;
+  color: var(--white);
 }
 
 .alt-header__title {
   font-size: 25px;
   font-weight: 600;
+  font-family: "Russo One", sans-serif;
 }
 
 .alt-header__column {
